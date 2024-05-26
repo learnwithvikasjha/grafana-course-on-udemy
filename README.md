@@ -13,7 +13,7 @@
    - 🎯 What you will learn
    - 📋 Prerequisites
 
-### Section 2: Setting Up Grafana
+### Section 2: [Setting Up Grafana](02-setting-up-grafana)
 1. **Installation**
    - 💻 Installing Grafana on different platforms (Windows, macOS, Linux)
    - 🐳 Installing Grafana using Docker
