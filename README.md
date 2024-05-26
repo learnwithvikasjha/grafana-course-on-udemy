@@ -4,7 +4,7 @@
 
 ### Section 1: Introduction to Grafana
 1. **Overview of Grafana**
-   - 📌 What is Grafana?
+   - 🤔 What is Grafana?
    - ⭐ Key features and benefits
    - 📚 Use cases and applications
 
