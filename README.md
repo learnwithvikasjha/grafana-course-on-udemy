@@ -1,4 +1,4 @@
-# 📊 Grafana Course on Udemy
+# 📊 Grafana Course on Udemy 🧑‍💻
 
 ## 📋 Course Outline
 
