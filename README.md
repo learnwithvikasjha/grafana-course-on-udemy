@@ -19,7 +19,10 @@
    - Installing Grafana using Docker
 
 2. **Getting Started with Grafana**
-   - Starting Grafana server
+   - Managing Grafana Services
+     - Starting Grafana Services
+     - Stopping Grafana Services
+     - Enabling Auto Startup of Grafana
    - Accessing the Grafana web interface
    - Initial configuration
 
