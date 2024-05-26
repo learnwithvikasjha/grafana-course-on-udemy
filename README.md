@@ -2,7 +2,7 @@
 
 ## 📋 Course Outline
 
-### Section 1: Introduction to Grafana
+### Section 1: [Introduction to Grafana](/01-introduction-to-grafana)
 1. **Overview of Grafana**
    - 🤔 What is Grafana?
    - ⭐ Key features and benefits
