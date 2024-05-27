@@ -1,6 +1,8 @@
 
 # What is Grafana? 🤔
-Grafana is a powerful open-source platform for monitoring and observability. It has two editions, opensource and enterprise.
+Grafana is a powerful open-source platform for monitoring and observability. It has two editions, open source and enterprise.
+
+## Quick Comparison
 
 | Feature/Aspect                      | Grafana Open Source                     | Grafana Enterprise                      |
 |-------------------------------------|-----------------------------------------|-----------------------------------------|
