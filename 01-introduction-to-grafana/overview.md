@@ -1,6 +1,9 @@
 
 # What is Grafana? 🤔
 Grafana is a powerful open-source platform for monitoring and observability. It has two editions, open source and enterprise.
+- Grafana is not a data store or metrics collector.
+- You will typically use some datastore like Prometheus, InfluxDB, or other datastore.
+- You will use some agents to collect the data from the datastore. You can use agents like Promtail, and Grafana or another agent for this purpose. 
 
 ## Quick Comparison
 
