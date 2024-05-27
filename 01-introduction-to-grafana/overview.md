@@ -8,7 +8,7 @@ Grafana is a powerful open-source platform for monitoring and observability. It 
 |-------------------------------------|-----------------------------------------|-----------------------------------------|
 | **Cost**                            | Free                                    | Paid (subscription-based)               |
 | **Core Dashboard Functionality**    | Yes                                     | Yes                                     |
-| **Data Source Integration**         | Extensive (many data sources supported) | Extensive (includes additional enterprise data sources) |
+| **Data Source Integration**         | Extensive (many data sources supported) | Extensive (includes additional **enterprise data sources**). Some of them are **Spluk** , **ServiceNow** , **SnowFlake** , **Oracle** etc. |
 | **Alerting and Notifications**      | Basic                                   | Advanced (includes enhanced alerting features and integrations) |
 | **User Management**                 | Basic roles and permissions             | Advanced access controls and SSO (Single Sign-On) integration |
 | **Plugins**                         | Community and some official plugins     | Additional enterprise plugins and support for custom plugins |
