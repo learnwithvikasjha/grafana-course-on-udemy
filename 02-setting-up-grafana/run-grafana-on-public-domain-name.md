@@ -1,3 +1,18 @@
+# Accessing Grafana on a Public Domain Name
+
+In this lesson, let's see how can we access Grafana on a public domain name over https securely.
+
+# Routing Traffic to Grafana Using Nginx
+
+This document demonstrates how to route incoming traffic from `grafana.virtuallabs.online` to a Grafana backend running on port 3000 using Nginx.
+
+## Diagram
+
+```mermaid
+graph TD
+    A[Client] -->|HTTP/HTTPS Request to grafana.virtuallabs.online| B[Cloudflare DNS]
+    B -->|A Record for grafana.virtuallabs.online| C[Nginx Server]
+    C -->|Reverse Proxy to port 3000| D[Grafana Backend]
 
 # Install Nginx
 ```
