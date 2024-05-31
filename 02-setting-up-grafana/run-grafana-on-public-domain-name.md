@@ -9,6 +9,16 @@ sudo systemctl status nginx
 
 # Configure Nginx to send traffic to Grafana
 ```
+# Redirect HTTP to HTTPS
+server {
+    listen 80;
+    server_name <your_domain_name>;
+
+    # Redirect all traffic to HTTPS
+    return 301 https://$host$request_uri;
+}
+
+# HTTPS server configuration
 server {
     listen 443 ssl;
     server_name <your_domain_name>;
@@ -26,8 +36,8 @@ server {
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
         proxy_set_header X-Forwarded-Proto $scheme;
     }
-
 }
+
 ```
 
 # Restart Nginx
