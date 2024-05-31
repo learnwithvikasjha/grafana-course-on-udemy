@@ -11,7 +11,7 @@ This document demonstrates how to route incoming traffic from `grafana.virtualla
 ```mermaid
 graph TD
     A[Users] -->|HTTP/HTTPS Request to grafana.virtuallabs.online| B[Cloudflare DNS]
-    B -->|A Record (Public IP Address of Grafana) for grafana.virtuallabs.online| C[Nginx Server]
+    B -->|A Record - Public IP Address of Grafana| C[Nginx Server]
     C -->|Reverse Proxy to port 3000| D[Grafana Backend]
 ```
 
